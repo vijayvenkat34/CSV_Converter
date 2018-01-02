@@ -28,7 +28,12 @@ import org.json.simple.parser.ParseException;
 
 public class Tester3 {
 
+
+	
 	public static void main(String[] args) throws IOException {
+			
+		//selection of domain
+		Context conn = new Context();
 		
 		JSONParser parser = new JSONParser();
 		int flag=0;
@@ -82,7 +87,7 @@ public class Tester3 {
 					CSVParser csvParser = new CSVParser(reader, CSVFormat.DEFAULT);
 					List<CSVRecord> csvRecords = csvParser.getRecords();
 					
-					//get header of file
+					//get header of file (column names)
 					CSVRecord headerRow = csvRecords.get(0);
 					subDistricts = new ArrayList<String>();
 					
@@ -92,13 +97,21 @@ public class Tester3 {
 						subDistricts.add(headerRow.get(i).toString().substring(12));
 					}
 					
+					//based on Constants.CHOICE the start and end is selected
+					int[] a = new int[2];
+					int start = conn.returnStartAndEndLocation()[0];
+					int end = conn.returnStartAndEndLocation()[1];
+					
 					for(String subDistrict : subDistricts){
 						
-				        for (int i=147;i<155;i++) {
+				        for (int i=start;i<end;i++) {
 				        	CSVRecord row = csvRecords.get(i);
-
+				        	
+				        	//fetch the parameter column
 				            String parameter = row.get(2);
 				            
+				            //fetch type column i.e filter
+				            String filter = row.get(3);
 				            
 				            ArrayList<String> dataRecord = new ArrayList<>();
 				           /* for(int k=0;k<months.size();k++){
@@ -110,6 +123,7 @@ public class Tester3 {
 				            dataRecord.add(districtName);
 				            dataRecord.add(subDistrict);
 				            dataRecord.add(parameter);
+				            dataRecord.add(filter);
 				            
 				            for(int pos=1;pos<=months.size();pos++){
 				            	
@@ -213,6 +227,11 @@ public class Tester3 {
 			e.printStackTrace();
 		}
 		finally{
+			
+			//delete sample.csv file
+			File file = new File(Constants.SAMPLE_CSV_FILE);
+			file.delete();
+			
 			csvPrinter.flush();
 		}
 	}
