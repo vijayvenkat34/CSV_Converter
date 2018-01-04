@@ -3,6 +3,8 @@
     {
       "name": "Maharashtra",
       "districts": [
+      	"Ahmednagar",
+        "Akola",
         "Pune"
       ]
     }

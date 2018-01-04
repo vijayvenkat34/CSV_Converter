@@ -37,7 +37,7 @@ public class Tester3 {
 		
 		JSONParser parser = new JSONParser();
 		int flag=0;
-		ArrayList<String> subDistricts = null;
+		
 		
 		//output csv file 
         BufferedWriter writer = Files.newBufferedWriter(Paths.get(Constants.FINAL_CSV_FILE));
@@ -89,12 +89,14 @@ public class Tester3 {
 					
 					//get header of file (column names)
 					CSVRecord headerRow = csvRecords.get(0);
-					subDistricts = new ArrayList<String>();
+					ArrayList<String> subDistricts = new ArrayList<String>();
 					
 					//store subDistricts in array {Pune,Ambegaon,Pundarpur}
-					for(int i=4;i<19;i++){
+					for(int i=4;i<headerRow.size();i++){
 						//Convert and store -- SubDistricts-Pune => Pune
+						
 						subDistricts.add(headerRow.get(i).toString().substring(12));
+						
 					}
 					
 					//based on Constants.CHOICE the start and end is selected
@@ -114,11 +116,7 @@ public class Tester3 {
 				            String filter = row.get(3);
 				            
 				            ArrayList<String> dataRecord = new ArrayList<>();
-				           /* for(int k=0;k<months.size();k++){
-				            	dataRecord.add("a");
-				            }*/
 				            
-				       
 				            dataRecord.add(stateName);
 				            dataRecord.add(districtName);
 				            dataRecord.add(subDistrict);
