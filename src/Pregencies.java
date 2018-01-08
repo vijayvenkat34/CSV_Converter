@@ -68,6 +68,7 @@ public class Pregencies implements Domain{
 		//Number of cases of complicated pregnancies treated with IV Oxytocis
 		name[21] = "Cases of complicated pregnancies treated with IV Oxytocis";
 		//Number of cases of complicated pregnancies treated with Blood Transfusion
+		//made changes here
 		name[22] = "Cases of complicated pregnancies treated with Blood Transfusion";
 
 		return name;
