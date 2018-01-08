@@ -72,6 +72,12 @@ public class Pregencies implements Domain{
 
 		return name;
 	}
+
+	@Override
+	public String[] returnFilterNames() {
+		// TODO Auto-generated method stub
+		return null;
+	}
 	
 	
 }

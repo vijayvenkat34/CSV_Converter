@@ -20,4 +20,10 @@ public class FamilyPlanning implements Domain {
 		return null;
 	}
 
+	@Override
+	public String[] returnFilterNames() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
 }

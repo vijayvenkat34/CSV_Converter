@@ -21,4 +21,10 @@ public class ChildDiseases implements Domain{
 		// TODO Auto-generated method stub
 		return null;
 	}
+
+	@Override
+	public String[] returnFilterNames() {
+		// TODO Auto-generated method stub
+		return null;
+	}
 }

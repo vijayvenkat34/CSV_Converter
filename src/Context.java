@@ -37,4 +37,8 @@ public class Context {
 	String[] returnParameterNames(){
 		return domain.returnParameterNames();
 	}
+	
+	String[] returnFilterNames(){
+		return domain.returnFilterNames();
+	}
 }

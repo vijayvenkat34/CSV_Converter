@@ -21,4 +21,10 @@ public class ChildImmunization implements Domain {
 		return null;
 	}
 
+	@Override
+	public String[] returnFilterNames() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
 }

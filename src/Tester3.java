@@ -116,11 +116,20 @@ public class Tester3 {
 				            //String parameter = row.get(2);
 				            
 				        	//OR if we what customized parameter coloum
-				        	String parameter =  conn.returnParameterNames()[k++];
+				        	String parameter =  conn.returnParameterNames()[k];
 				        	
 				            //fetch 'type' column i.e filter
-				            String filter = row.get(3);
-				            
+				        	String filter = "";
+				        	if(conn.returnFilterNames() == null){
+				        		//if we what as it is
+				        		filter = row.get(3);
+				        	}
+				        	else{
+				        		//if we what customized filter column
+				        		filter = conn.returnFilterNames()[k];
+				        	}
+				        	
+				        	k++;
 				            ArrayList<String> dataRecord = new ArrayList<>();
 				            
 				            dataRecord.add(stateName);
