@@ -14,4 +14,10 @@ public class FamilyPlanning implements Domain {
 		return "FamilyPlanning-"+Constants.YEAR+".csv";
 	}
 
+	@Override
+	public String[] returnParameterNames() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
 }

@@ -33,4 +33,8 @@ public class Context {
 	String getDomainName(){
 		return domain.getDomainName();
 	}
+	
+	String[] returnParameterNames(){
+		return domain.returnParameterNames();
+	}
 }

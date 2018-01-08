@@ -7,7 +7,7 @@ public class Constants {
 	public static final String YEAR = "2014";
 	
 	//domain selection
-	public static int CHOICE = 6;
+	public static int CHOICE = 1;
 	public static Map<String, Integer> DOMAIN_LIST = new HashMap<String, Integer>(){
 		{
 			put("Pregencies",1);

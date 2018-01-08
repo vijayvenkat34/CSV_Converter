@@ -15,4 +15,10 @@ public class ChildImmunization implements Domain {
 		return "ChildImmunization-"+Constants.YEAR+".csv";
 	}
 
+	@Override
+	public String[] returnParameterNames() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
 }

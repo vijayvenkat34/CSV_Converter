@@ -15,4 +15,10 @@ public class ChildDiseases implements Domain{
 		// TODO Auto-generated method stub
 		return "ChildDiseases-"+Constants.YEAR+".csv";
 	}
+
+	@Override
+	public String[] returnParameterNames() {
+		// TODO Auto-generated method stub
+		return null;
+	}
 }

@@ -106,13 +106,19 @@ public class Tester3 {
 					
 					for(String subDistrict : subDistricts){
 						
+						int k = 0;
 				        for (int i=start;i<end;i++) {
 				        	CSVRecord row = csvRecords.get(i);
 				        	
-				        	//fetch the parameter column
-				            String parameter = row.get(2);
+				        	//fetch the 'parameter' column
+				        	
+				        	//If we what parameter column as it is then below line
+				            //String parameter = row.get(2);
 				            
-				            //fetch type column i.e filter
+				        	//OR if we what customized parameter coloum
+				        	String parameter =  conn.returnParameterNames()[k++];
+				        	
+				            //fetch 'type' column i.e filter
 				            String filter = row.get(3);
 				            
 				            ArrayList<String> dataRecord = new ArrayList<>();

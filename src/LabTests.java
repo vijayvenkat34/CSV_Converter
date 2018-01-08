@@ -16,4 +16,10 @@ public class LabTests implements Domain {
 		return "LabTests-"+Constants.YEAR+".csv";
 	}
 
+	@Override
+	public String[] returnParameterNames() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
 }

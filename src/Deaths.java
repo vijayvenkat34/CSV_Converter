@@ -16,4 +16,10 @@ public class Deaths implements Domain {
 		return "Deaths-"+Constants.YEAR+".csv";
 	}
 
+	@Override
+	public String[] returnParameterNames() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
 }
