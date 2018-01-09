@@ -19,12 +19,27 @@ public class ChildDiseases implements Domain{
 	@Override
 	public String[] returnParameterNames() {
 		// TODO Auto-generated method stub
-		return null;
+		int size = returnStartAndEndLocation()[1] - returnStartAndEndLocation()[0];
+		String[] name  = new String[size];
+		
+		//Number of cases of Pertusis reported in children below 5 years of age
+		name[0] = "Pertusis reported in children below 5 years of age";
+		//Number of cases of Tetanus neonatarum reported in children below 5 years of age
+		name[1] = "Tetanus neonatarum reported in children below 5 years of age";
+		//Number of cases of Tetanus other than neonatarum reported in children below 5 years of age
+		name[2] = "Tetanus other than neonatarum reported in children below 5 years of age";
+		//Number of cases of Polio reported in children below 5 years of age
+		name[3] = "Polio reported in children below 5 years of age";
+		//Number of cases of Measles reported in children below 5 years of age
+		name[4] = "Measles reported in children below 5 years of age";
+		//Number of cases of Diarrhoea and Dehydration reported in children below 5 years of age
+		name[5] = "Diarrhoea and Dehydration reported in children below 5 years of age";
+		//Number of cases of Malaria reported in children below 5 years of age
+		name[6] = "Malaria reported in children below 5 years of age";
+		//Number of children below 5 years of age admitted with Respiratory Infections
+		name[7] = "Children below 5 years of age admitted with Respiratory Infections";
+
+		return name;
 	}
 
-	@Override
-	public String[] returnFilterNames() {
-		// TODO Auto-generated method stub
-		return null;
-	}
 }
