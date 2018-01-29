@@ -59,10 +59,11 @@ public class Tester3 {
 				JSONObject jsonObject2 = (JSONObject) obj2;
 				
 				String stateName = (String) jsonObject2.get("name");
-				
+	
 				//read districts, eg District:[Pune,Akola]
 				JSONArray districts = (JSONArray)jsonObject2.get("districts");
 				
+
 				//iterate through districts
 				for(Object district : districts){
 					
@@ -70,8 +71,13 @@ public class Tester3 {
 					
 					//load all the files present in the directory into a single file sample.csv
 					//and return the name of each files
-					ArrayList<String> filePaths = loadIntoSingleFile(stateName,districtName);
-					
+					ArrayList<String> filePaths = null;
+					try{
+						filePaths = loadIntoSingleFile(stateName,districtName);
+					}catch(Exception e){
+						System.out.println("State : "+stateName+ " District : " +districtName+ " not present in directory");
+						continue;
+					}
 					//get the months
 					ArrayList<String> months = new ArrayList<>();
 					for(String path : filePaths){
@@ -88,7 +94,13 @@ public class Tester3 {
 					List<CSVRecord> csvRecords = csvParser.getRecords();
 					
 					//get header of file (column names)
-					CSVRecord headerRow = csvRecords.get(0);
+					CSVRecord headerRow = null;
+					try{
+						headerRow = csvRecords.get(0);
+					}catch(Exception e){
+						System.out.println("No Files present in directory");
+						continue;
+					}
 					ArrayList<String> subDistricts = new ArrayList<String>();
 					
 					//store subDistricts in array {Pune,Ambegaon,Pundarpur}
@@ -100,7 +112,6 @@ public class Tester3 {
 					}
 					
 					//based on Constants.CHOICE the start and end is selected
-					int[] a = new int[2];
 					int start = conn.returnStartAndEndLocation()[0];
 					int end = conn.returnStartAndEndLocation()[1];
 					
@@ -251,6 +262,8 @@ public class Tester3 {
 		File file = new File(Constants.DIRECTORY+"/"+stateName+"/"+districtName);
 		
 		File[] files = file.listFiles();
+	
+
 		ArrayList<String> filePaths = new ArrayList<>();
 		
 		for (int i = 0; i < files.length; i++) {
@@ -258,8 +271,7 @@ public class Tester3 {
 			//System.out.println("Processing " + files[i].getPath() + "... ");
 			filePaths.add(files[i].getPath());
 			
-			BufferedReader br = new BufferedReader(new FileReader(files[i]
-					.getPath()));
+			BufferedReader br = new BufferedReader(new FileReader(files[i].getPath()));
 			
 			String line = br.readLine();
 			while (line != null) {
@@ -273,13 +285,6 @@ public class Tester3 {
 		return filePaths;
 	}
 
-	private static List<CSVRecord> openCSVFIle(String state,String district,String fileName) throws IOException {
-		
-		Reader reader = Files.newBufferedReader(Paths.get("D:/Project/Hospital Datasets/State wise health data/2014/"+state+"/"+district+"/"+fileName));
-		CSVParser csvParser = new CSVParser(reader, CSVFormat.DEFAULT);
-		
-		List<CSVRecord> csvRecords = csvParser.getRecords();
-		return csvRecords;
-	}
+
 
 }
