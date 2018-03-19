@@ -3,9 +3,8 @@
     {
       "name": "Maharashtra",
       "districts": [
-      	"Ahmednagar","Akola","Amravati","Aurangabad","Bhandara","Bid","Buldana","Chandrapur","Dhule","Gadchiroli",
-      	"Gondiya","Hingoli","Jalgaon","Jalna",
-        "Pune"
+      	"Ahmednagar","Akola","Amravati","Aurangabad","Bhandara","Bid","Buldana","Chandrapur","Dhule","Gadchiroli","Gondiya","Hingoli",
+		"Jalgaon","Jalna","Pune"
       ]
     },
     {
@@ -19,8 +18,31 @@
     	"districts":[
     		"Daman","Diu"
     	]
+    },
+	{
+    	"name": "Gujarat",
+    	"districts":[
+    		"Ahmedabad","Vadodara","Anand","Dahod","Kheda","Mahisagar","Gandhinagar","Aravalli","Patan","Rajkot","Amreli","Bhavnagar",
+			"Botad","Devbhoomi_Dwarka","Gir Somnath","Jamnagar","Junagadh","Morbi","Porbandar","Surendranagar","Kachchh,Surat","Bharuch","Dang","Narmada",
+			"Navsari","Tapi","Valsad"
+    	]
+    },
+	{
+    	"name": "Chhattisgarh",
+    	"districts":[
+    		"Koriya","Balrampur","Surajpur","Jashpur","Surguja","Bilaspur","Mungeli","Korba","Janjgir-Champa","Raigarh","Kawardha",
+			"Durg","Balod","Baloda Bazar","Rajnandgaon","Mahasamund","Raipur","Dhamtari","Kanker", "Narayanpur","Kondagaon","Bastar",
+			"Dantewada","Bijapur","Sukma"
+    	]
+    },
+	{
+    	"name": "Madhya Pradesh",
+    	"districts":[
+    		"Bhopal", "Raisen", "Rajgarh", "Sehore", "Vidisha","Morena", "Sheopur", "Bhind","Gwalior", "Shivpuri", "Datia", "Guna","Alirajpur", 
+			"Barwani", "Burhanpur", "Indore", "Dhar", "Jhabua", "Khandwa", "Khargone","Balaghat", "Jabalpur", "Katni", "Mandla", "Narsinghpur", 
+			"Seoni","Betul","Harda", "Hoshangabad","Rewa", "Satna", "Sidhi","Chhatarpur", "Damoh", "Panna", "Sagar", "Tikamgarh","Anuppur", 
+			"Shahdol","Umaria","Dindori","Agar Malwa", "Dewas", "Mandsaur", "Neemuch", "Ratlam", "Shajapur", "Ujjain"       
+    	]
     }	
   ]
 }
-
-just doing some changes
