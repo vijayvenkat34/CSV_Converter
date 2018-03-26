@@ -7,6 +7,13 @@ public class ChildDiseases implements Domain{
 		int[] a = new int[2];
 		a[0] = 147;
 		a[1] = 155;
+		
+		if(Integer.parseInt(Constants.YEAR) <=2014){
+			
+			Constants.LENGTH_OF_FILE = 313;
+		}else{
+			Constants.LENGTH_OF_FILE = 319;
+		}
 		return a;
 	}
 	
@@ -23,21 +30,21 @@ public class ChildDiseases implements Domain{
 		String[] name  = new String[size];
 		
 		//Number of cases of Pertusis reported in children below 5 years of age
-		name[0] = "Pertusis reported in children below 5 years of age";
+		name[0] = "Pertusis";
 		//Number of cases of Tetanus neonatarum reported in children below 5 years of age
-		name[1] = "Tetanus neonatarum reported in children below 5 years of age";
+		name[1] = "Tetanus";
 		//Number of cases of Tetanus other than neonatarum reported in children below 5 years of age
-		name[2] = "Tetanus other than neonatarum reported in children below 5 years of age";
+		name[2] = "Tetanus other than neonatarum";
 		//Number of cases of Polio reported in children below 5 years of age
-		name[3] = "Polio reported in children below 5 years of age";
+		name[3] = "Polio";
 		//Number of cases of Measles reported in children below 5 years of age
-		name[4] = "Measles reported in children below 5 years of age";
+		name[4] = "Measles";
 		//Number of cases of Diarrhoea and Dehydration reported in children below 5 years of age
-		name[5] = "Diarrhoea and Dehydration reported in children below 5 years of age";
+		name[5] = "Diarrhoea and Dehydration";
 		//Number of cases of Malaria reported in children below 5 years of age
-		name[6] = "Malaria reported in children below 5 years of age";
+		name[6] = "Malaria";
 		//Number of children below 5 years of age admitted with Respiratory Infections
-		name[7] = "Children below 5 years of age admitted with Respiratory Infections";
+		name[7] = "Respiratory Infections";
 
 		return name;
 	}

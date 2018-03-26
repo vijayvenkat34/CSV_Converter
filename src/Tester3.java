@@ -139,6 +139,7 @@ public class Tester3 {
 				        	k++;
 				            ArrayList<String> dataRecord = new ArrayList<>();
 				            
+				            dataRecord.add(Constants.YEAR);
 				            dataRecord.add(stateName);
 				            dataRecord.add(districtName);
 				            dataRecord.add(subDistrict);
@@ -154,83 +155,95 @@ public class Tester3 {
 				            		//apr
 					            	case 1:
 					            		total = row.get(subDistricts.indexOf(subDistrict)+4);
+					            
 					            		dataRecord.add(total);
 					            		break;
 					            	
 					            	//aug
 					            	case 2:
-					            		row = csvRecords.get(i+313);
+					            		row = csvRecords.get(i+Constants.LENGTH_OF_FILE);
 					            		total = row.get(subDistricts.indexOf(subDistrict)+4);
+					            		
 					            		dataRecord.add(total);
 					            		break;
 					            		
 						            	//dec
 					            	case 3:
-					            		row = csvRecords.get(i+313*2);
+					            		row = csvRecords.get(i+Constants.LENGTH_OF_FILE*2);
 					            		total = row.get(subDistricts.indexOf(subDistrict)+4);
+					            		
 					            		dataRecord.add(total);
 					            		break;
 					            	
 						            	//feb
 					            	case 4:
-					            		row = csvRecords.get(i+313*3);
+					            		row = csvRecords.get(i+Constants.LENGTH_OF_FILE*3);
 					            		total = row.get(subDistricts.indexOf(subDistrict)+4);
+					            	
 					            		dataRecord.add(total);
 					            		break;
 					            	
 						            	//jan
 					            	case 5:
-					            		row = csvRecords.get(i+313*4);
+					            		row = csvRecords.get(i+Constants.LENGTH_OF_FILE*4);
 					            		total = row.get(subDistricts.indexOf(subDistrict)+4);
+					            		
 					            		dataRecord.add(total);
 					            		break;
 					            	
 						            	//jul
 					            	case 6:
-					            		row = csvRecords.get(i+313*5);
+					            		row = csvRecords.get(i+Constants.LENGTH_OF_FILE*5);
 					            		total = row.get(subDistricts.indexOf(subDistrict)+4);
+					            		
 					            		dataRecord.add(total);
 					            		break;
 					            	
 						            	//jun
 					            	case 7:
-					            		row = csvRecords.get(i+313*6);
+					            		row = csvRecords.get(i+Constants.LENGTH_OF_FILE*6);
 					            		total = row.get(subDistricts.indexOf(subDistrict)+4);
+					            		
 					            		dataRecord.add(total);
 					            		break;
 					            		
 						            	//mar
 					            	case 8:
-					            		row = csvRecords.get(i+313*7);
+					            		row = csvRecords.get(i+Constants.LENGTH_OF_FILE*7);
 					            		total = row.get(subDistricts.indexOf(subDistrict)+4);
+					            		
 					            		dataRecord.add(total);
 					            		break;
 					            		
 						            	//may
 					            	case 9:
-					            		row = csvRecords.get(i+313*8);
+					            		row = csvRecords.get(i+Constants.LENGTH_OF_FILE*8);
 					            		total = row.get(subDistricts.indexOf(subDistrict)+4);
+					            		
 					            		dataRecord.add(total);
 					            		break;
 					            		
 						            	//nov
 					            	case 10:
-					            		row = csvRecords.get(i+313*9);
+					            		row = csvRecords.get(i+Constants.LENGTH_OF_FILE*9);
 					            		total = row.get(subDistricts.indexOf(subDistrict)+4);
+					            		
 					            		dataRecord.add(total);
 					            		break;
 					            		
 						            	//oct
 					            	case 11:
-					            		row = csvRecords.get(i+313*10);
+					            		row = csvRecords.get(i+Constants.LENGTH_OF_FILE*10);
 					            		total = row.get(subDistricts.indexOf(subDistrict)+4);
+					            		
 					            		dataRecord.add(total);
 					            		break;
 					            		
 						            	//sep
 					            	case 12:
-					            		row = csvRecords.get(i+313*11);
+					            		row = csvRecords.get(i+Constants.LENGTH_OF_FILE*11);
 					            		total = row.get(subDistricts.indexOf(subDistrict)+4);
+					            		
 					            		dataRecord.add(total);
 					            		break;
 				            	}

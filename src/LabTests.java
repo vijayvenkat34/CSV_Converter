@@ -5,8 +5,18 @@ public class LabTests implements Domain {
 	public int[] returnStartAndEndLocation() {
 		// TODO Auto-generated method stub
 		int[] a = new int[2];
-		a[0] = 188;
-		a[1] = 205;
+
+		
+		if(Integer.parseInt(Constants.YEAR) <=2014){
+			
+			Constants.LENGTH_OF_FILE = 313;
+			a[0] = 188;
+			a[1] = 205;
+		}else{
+			Constants.LENGTH_OF_FILE = 319;
+			a[0] = 193;
+			a[1] = 211;
+		}
 		return a;
 	}
 

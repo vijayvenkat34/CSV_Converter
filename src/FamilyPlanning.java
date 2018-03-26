@@ -6,6 +6,13 @@ public class FamilyPlanning implements Domain {
 		int[] a = new int[2];
 		a[0] = 63;
 		a[1] = 106;
+		
+		if(Integer.parseInt(Constants.YEAR) <=2014){
+			
+			Constants.LENGTH_OF_FILE = 313;
+		}else{
+			Constants.LENGTH_OF_FILE = 319;
+		}
 		return a;
 	}
 

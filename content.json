@@ -3,9 +3,8 @@
     {
       "name": "Maharashtra",
       "districts": [
-      	"Ahmednagar","Akola","Amravati","Aurangabad","Bhandara","Bid","Buldana","Chandrapur","Dhule","Gadchiroli",
-      	"Gondiya","Hingoli","Jalgaon","Jalna",
-        "Pune"
+      	"Ahmednagar","Akola","Amravati","Aurangabad","Bhandara","Bid","Buldana","Chandrapur","Dhule","Gadchiroli","Gondiya","Hingoli",
+		"Jalgaon","Jalna","Pune"
       ]
     },
     {
@@ -19,6 +18,132 @@
     	"districts":[
     		"Daman","Diu"
     	]
-    }	
+    },
+	{
+    	"name": "Gujarat",
+    	"districts":[
+    		"Ahmedabad","Vadodara","Anand","Dahod","Kheda","Mahisagar","Gandhinagar","Aravalli","Patan","Rajkot","Amreli","Bhavnagar",
+			"Botad","Devbhoomi_Dwarka","Gir Somnath","Jamnagar","Junagadh","Morbi","Porbandar","Surendranagar","Kachchh","Surat","Bharuch","Dang","Narmada",
+			"Navsari","Tapi","Valsad"
+    	]
+    },
+	{
+    	"name": "Chhattisgarh",
+    	"districts":[
+    		"Koriya","Balrampur","Surajpur","Jashpur","Surguja","Bilaspur","Mungeli","Korba","Janjgir-Champa","Raigarh","Kawardha",
+			"Durg","Balod","Baloda Bazar","Rajnandgaon","Mahasamund","Raipur","Dhamtari","Kanker", "Narayanpur","Kondagaon","Bastar",
+			"Dantewada","Bijapur","Sukma"
+    	]
+    },
+	{
+    	"name": "Madhya Pradesh",
+    	"districts":[
+    		"Bhopal", "Raisen", "Rajgarh", "Sehore", "Vidisha","Morena", "Sheopur", "Bhind","Gwalior", "Shivpuri", "Datia", "Guna","Alirajpur", 
+			"Barwani", "Burhanpur", "Indore", "Dhar", "Jhabua", "Khandwa", "Khargone","Balaghat", "Jabalpur", "Katni", "Mandla", "Narsinghpur", 
+			"Seoni","Betul","Harda", "Hoshangabad","Rewa", "Satna", "Sidhi","Chhatarpur", "Damoh", "Panna", "Sagar", "Tikamgarh","Anuppur", 
+			"Shahdol","Umaria","Dindori","Agar Malwa", "Dewas", "Mandsaur", "Neemuch", "Ratlam", "Shajapur", "Ujjain"       
+    	]
+    },
+    {
+    	"name": "Andhra Pradesh",
+    	"districts":[
+    		"Anantapur","Chittoor",	"East Godavari","Guntur","Krishna","Kurnool","Nellore","Prakasam","Srikakulam",		
+			"Vizianagaram","West Godavari"	
+    	]
+    },
+	{
+    	"name": "Jammu and Kashmir",
+    	"districts":[
+    		"Doda","Jammu", "Kathua","Kishtwar", "Poonch","Rajouri", "Ramban", "Reasi","Samba", "Udhampur"
+    	]
+    },
+    {
+    	"name": "Dadra and Nagar Haveli",
+    	"districts":[
+    		"Dadra and Nagar Haveli"
+    	]
+    },
+		{
+    	"name": "West Bengal",
+    	"districts":[
+    		"Alipurduar","Bankura","Birbhum","Darjeeling","Uttar Dinajpur","Dakshin Dinajpur","Hoogly","Jalpaiguri","Kolkata","Malda","Purba Medinipur",
+		"Nadia","North 24 Parganas","South 24 Parganas","Bardhaman","Paschim Medinipur","Murshidabad"
+    	]
+    },
+	{
+    	"name": "Sikkim",
+    	"districts":[
+    		"East of Sikkim","North of Sikkim","South of Sikkim","West of Sikkim"
+    	]
+    },
+    {
+    	"name": "Assam",
+    	"districts":[
+    		"Baksa","Barpeta","Bongaigaon","Cachar","Chirang","Darrang","Dhemaji","Dhubri","Dibrugarh","Dima Hasao",
+		"Goalpara","Golaghat","Hailakandi","Jorhat","Kamrup M","Kamrup R","Karbi Anglong","Karimganj","Kokrajhar","Lakhimpur","Nagaon",
+		"Nalbari","Sonitpur","Tinsukia","Udalguri","Karbi_Anglong"
+    	]
+    },
+    {
+    	"name": "Meghalaya",
+    	"districts":[
+    		"West Jaintia Hills","East_Jaintia_Hills","East_Khasi_Hills","West_Khasi_Hills","South_West_Khasi_Hills","Ri_Bhoi","North Garo Hills",
+		"East Garo Hills","South Garo Hills","West Garo Hills","South West Garo Hills"
+    	]
+    },
+    {
+    	"name": "Arunachal Pradesh",
+    	"districts":[
+    		"Tawang","West Kameng","East Kameng","Papum Pare","Kurung Kumey","Kra Daadi","Lower Subansiri","Upper Subansiri",
+		"West Siang","East Siang","Upper Siang","Lower Dibang Valley","Upper Dibang Valley","Anjaw","Lohit","Changlang","Tirap","Longding"
+    	]
+    },
+    {
+    	"name": "Nagaland",
+    	"districts":[
+    		"Dimapur","Kiphire","Kohima","Longleng","Mokokchung","Mon","Peren","Phek","Tuensang","Wokha","Zunheboto"
+    	]
+    },
+    {
+    	"name": "Manipur",
+    	"districts":[
+    		"Bishnupur","Thoubal","Imphal East","Imphal West","Senapati","Ukhrul","Chandel","Churachandpur","Tamenglong"
+    	]
+    },
+    {
+    	"name": "Mizoram",
+    	"districts":[
+    		"Aizawl","Kolasib","Lawngtlai","Lunglei","Mamit","Serchhip","Champhai"
+    	]
+    },
+    {
+    	"name": "Tripura",
+    	"districts":[
+    		"Dhalai","Sipahijala","Khowai","Gomati","Unakoti","North Tripura","South Tripura","West Tripura"
+    	]
+    },
+    {
+    	"name": "Bihar",
+    	"districts":[
+    		"Araria","Arwal","Aurangabad","Banka","Begusarai","Bhagalpur","Bhojpur","Buxar","Darbhanga","East Champaran","Gaya",
+		"Gopalganj","Jamui","Jehanabad","Khagaria","Kishanganj","Kaimur","Katihar","Lakhisarai","Madhubani","Munger","Madhepura",
+		"Muzaffarpur","Nalanda","Nawada","Patna","Purnia","Rohtas","Saharsa","Samastipur","Sheohar","Sheikhpura","Saran","Sitamarhi",
+		"Supaul","Siwan","Vaishali","West Champaran"
+    	]
+    },
+    {
+    	"name": "Jharkhand",
+    	"districts":[
+    		"Garhwa","Palamu","Latehar","Chatra","Hazaribagh","Giridih","Ramgarh","Bokaro","Dhanbad","Lohardaga","Gumla","Simdega","Ranchi",
+		"Khunti","West Singhbhum","Saraikela Kharsawan","East Singhbhum","Jamtara","Deoghar","Dumka","Godda"
+    	]
+    },
+    {
+    	"name": "Odisha",
+    	"districts":[
+    		"Balangir","Bargarh","Bhadrak","Cuttack","Deogarh","Dhenkanal","Ganjam","Gajapati","Jharsuguda","Khordha","Keonjhar","Kalahandi",
+		"Kandhamal","Koraput","Kendrapara","Malkangiri","Mayurbhanj","Nuapada","Nayagarh","Puri","Rayagada","Sambalpur"
+    	]
+    }
   ]
 }
