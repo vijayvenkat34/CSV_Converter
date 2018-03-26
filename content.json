@@ -23,7 +23,11 @@
     	"name": "Gujarat",
     	"districts":[
     		"Ahmedabad","Vadodara","Anand","Dahod","Kheda","Mahisagar","Gandhinagar","Aravalli","Patan","Rajkot","Amreli","Bhavnagar",
+<<<<<<< HEAD
 			"Botad","Devbhoomi_Dwarka","Gir Somnath","Jamnagar","Junagadh","Morbi","Porbandar","Surendranagar","Kachchh","Surat","Bharuch","Dang","Narmada",
+=======
+			"Botad","Devbhoomi_Dwarka","Gir Somnath","Jamnagar","Junagadh","Morbi","Porbandar","Surendranagar","Kachchh,Surat","Bharuch","Dang","Narmada",
+>>>>>>> ac372c8bef9721edaf04123201f474d21a2f217b
 			"Navsari","Tapi","Valsad"
     	]
     },
@@ -43,6 +47,7 @@
 			"Seoni","Betul","Harda", "Hoshangabad","Rewa", "Satna", "Sidhi","Chhatarpur", "Damoh", "Panna", "Sagar", "Tikamgarh","Anuppur", 
 			"Shahdol","Umaria","Dindori","Agar Malwa", "Dewas", "Mandsaur", "Neemuch", "Ratlam", "Shajapur", "Ujjain"       
     	]
+<<<<<<< HEAD
     },
     {
     	"name": "Andhra Pradesh",
@@ -145,5 +150,8 @@
 		"Kandhamal","Koraput","Kendrapara","Malkangiri","Mayurbhanj","Nuapada","Nayagarh","Puri","Rayagada","Sambalpur"
     	]
     }
+=======
+    }	
+>>>>>>> ac372c8bef9721edaf04123201f474d21a2f217b
   ]
 }
