@@ -9,7 +9,7 @@ public class Constants {
 	
 	
 	//domain selection
-	public static int CHOICE = 6;
+	public static int CHOICE = 4;
 	public static Map<String, Integer> DOMAIN_LIST = new HashMap<String, Integer>(){
 		{
 			put("Pregencies",1);

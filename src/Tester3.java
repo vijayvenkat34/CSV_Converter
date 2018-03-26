@@ -55,11 +55,14 @@ public class Tester3 {
 			
 			//read object, example {"name":"Maharashtra","districts":["Pune","AKola"]}
 			for(Object state : states){
+				
+				
+				
 				Object obj2 = parser.parse(state.toString());
 				JSONObject jsonObject2 = (JSONObject) obj2;
 				
 				String stateName = (String) jsonObject2.get("name");
-	
+				System.out.println("\n"+stateName+"\n");
 				//read districts, eg District:[Pune,Akola]
 				JSONArray districts = (JSONArray)jsonObject2.get("districts");
 				
@@ -67,6 +70,7 @@ public class Tester3 {
 				//iterate through districts
 				for(Object district : districts){
 					
+					System.out.println(district.toString());
 					String districtName = district.toString();
 					
 					//load all the files present in the directory into a single file sample.csv
@@ -256,6 +260,7 @@ public class Tester3 {
 					}
 				}
 				}
+			System.out.println("Completed");
 		} catch (IOException | ParseException e) {
 			e.printStackTrace();
 		}

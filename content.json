@@ -23,18 +23,15 @@
     	"name": "Gujarat",
     	"districts":[
     		"Ahmedabad","Vadodara","Anand","Dahod","Kheda","Mahisagar","Gandhinagar","Aravalli","Patan","Rajkot","Amreli","Bhavnagar",
-<<<<<<< HEAD
 			"Botad","Devbhoomi_Dwarka","Gir Somnath","Jamnagar","Junagadh","Morbi","Porbandar","Surendranagar","Kachchh","Surat","Bharuch","Dang","Narmada",
-=======
-			"Botad","Devbhoomi_Dwarka","Gir Somnath","Jamnagar","Junagadh","Morbi","Porbandar","Surendranagar","Kachchh,Surat","Bharuch","Dang","Narmada",
->>>>>>> ac372c8bef9721edaf04123201f474d21a2f217b
+			"Botad","Devbhoomi_Dwarka","Gir Somnath","Jamnagar","Junagadh","Morbi","Porbandar","Surendranagar","Kachchh","Surat","Bharuch","Dang","Narmada",
 			"Navsari","Tapi","Valsad"
     	]
     },
 	{
     	"name": "Chhattisgarh",
     	"districts":[
-    		"Koriya","Balrampur","Surajpur","Jashpur","Surguja","Bilaspur","Mungeli","Korba","Janjgir-Champa","Raigarh","Kawardha",
+    		"Koriya","Balrampur","Surajpur","Jashpur","Surguja","Bilaspur","Mungeli","Korba","Janjgir Champa","Raigarh","Kawardha",
 			"Durg","Balod","Baloda Bazar","Rajnandgaon","Mahasamund","Raipur","Dhamtari","Kanker", "Narayanpur","Kondagaon","Bastar",
 			"Dantewada","Bijapur","Sukma"
     	]
@@ -47,7 +44,6 @@
 			"Seoni","Betul","Harda", "Hoshangabad","Rewa", "Satna", "Sidhi","Chhatarpur", "Damoh", "Panna", "Sagar", "Tikamgarh","Anuppur", 
 			"Shahdol","Umaria","Dindori","Agar Malwa", "Dewas", "Mandsaur", "Neemuch", "Ratlam", "Shajapur", "Ujjain"       
     	]
-<<<<<<< HEAD
     },
     {
     	"name": "Andhra Pradesh",
@@ -71,8 +67,8 @@
 		{
     	"name": "West Bengal",
     	"districts":[
-    		"Alipurduar","Bankura","Birbhum","Darjeeling","Uttar Dinajpur","Dakshin Dinajpur","Hoogly","Jalpaiguri","Kolkata","Malda","Purba Medinipur",
-		"Nadia","North 24 Parganas","South 24 Parganas","Bardhaman","Paschim Medinipur","Murshidabad"
+    		"Alipurduar","Bankura","Birbhum","Darjeeling","Uttar Dinajpur","Dakshin Dinajpur","Hooghly","Jalpaiguri","Kolkata","Malda","Purba Medinipur",
+			,"North 24 Parganas","South 24 Parganas","Bardhaman","Paschim Medinipur","Murshidabad"
     	]
     },
 	{
@@ -85,7 +81,7 @@
     	"name": "Assam",
     	"districts":[
     		"Baksa","Barpeta","Bongaigaon","Cachar","Chirang","Darrang","Dhemaji","Dhubri","Dibrugarh","Dima Hasao",
-		"Goalpara","Golaghat","Hailakandi","Jorhat","Kamrup M","Kamrup R","Karbi Anglong","Karimganj","Kokrajhar","Lakhimpur","Nagaon",
+		"Goalpara","Golaghat","Hailakandi","Jorhat","Kamrup M","Kamrup R","Karbi_Anglong","Karimganj","Kokrajhar","Lakhimpur","Nagaon",
 		"Nalbari","Sonitpur","Tinsukia","Udalguri","Karbi_Anglong"
     	]
     },
@@ -118,7 +114,7 @@
     {
     	"name": "Mizoram",
     	"districts":[
-    		"Aizawl","Kolasib","Lawngtlai","Lunglei","Mamit","Serchhip","Champhai"
+    		"Aizawl East","Aizawl West","Kolasib","Lawngtlai","Lunglei","Mamit","Serchhip","Champhai"
     	]
     },
     {
@@ -149,9 +145,6 @@
     		"Balangir","Bargarh","Bhadrak","Cuttack","Deogarh","Dhenkanal","Ganjam","Gajapati","Jharsuguda","Khordha","Keonjhar","Kalahandi",
 		"Kandhamal","Koraput","Kendrapara","Malkangiri","Mayurbhanj","Nuapada","Nayagarh","Puri","Rayagada","Sambalpur"
     	]
-    }
-=======
     }	
->>>>>>> ac372c8bef9721edaf04123201f474d21a2f217b
   ]
 }
