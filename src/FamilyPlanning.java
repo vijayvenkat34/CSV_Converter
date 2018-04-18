@@ -86,7 +86,7 @@ public class FamilyPlanning implements Domain {
 		//Total Number of IUCD Insertions conducted at Public facilities i.e. SC, PHC, CHC, SDH, DH and other State owned public institutions (sum of items from 9.5.1.a to 9.5.1.e)
 		name[28] = "Total Number of IUCD Insertions conducted at Public facilities";
 		//Out of above total, Post Partum (within 48 hours of delivery) IUCD insertions
-		name[29] = "Out of above total, Post Partum (within 48 hours of delivery) IUCD insertions";
+		name[29] = "Out of above total Post Partum (within 48 hours of delivery) IUCD insertions";
 		//Number of IUCD Insertions conducted at Private facilities
 		name[30] = "IUCD Insertions conducted at Private facilities";
 		//Number of IUCD removals

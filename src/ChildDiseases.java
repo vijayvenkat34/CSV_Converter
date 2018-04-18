@@ -5,7 +5,7 @@ public class ChildDiseases implements Domain{
 	public int[] returnStartAndEndLocation() {
 		
 		int[] a = new int[2];
-		a[0] = 147;
+		a[0] = 146;
 		a[1] = 155;
 		
 		if(Integer.parseInt(Constants.YEAR) <=2014){
@@ -29,22 +29,24 @@ public class ChildDiseases implements Domain{
 		int size = returnStartAndEndLocation()[1] - returnStartAndEndLocation()[0];
 		String[] name  = new String[size];
 		
+		//Number of cases of Diptheria reported in children below 5 years of age
+		name[0] = "Diptheria";
 		//Number of cases of Pertusis reported in children below 5 years of age
-		name[0] = "Pertusis";
+		name[1] = "Pertusis";
 		//Number of cases of Tetanus neonatarum reported in children below 5 years of age
-		name[1] = "Tetanus";
+		name[2] = "Tetanus";
 		//Number of cases of Tetanus other than neonatarum reported in children below 5 years of age
-		name[2] = "Tetanus other than neonatarum";
+		name[3] = "Tetanus other than neonatarum";
 		//Number of cases of Polio reported in children below 5 years of age
-		name[3] = "Polio";
+		name[4] = "Polio";
 		//Number of cases of Measles reported in children below 5 years of age
-		name[4] = "Measles";
+		name[5] = "Measles";
 		//Number of cases of Diarrhoea and Dehydration reported in children below 5 years of age
-		name[5] = "Diarrhoea and Dehydration";
+		name[6] = "Diarrhoea and Dehydration";
 		//Number of cases of Malaria reported in children below 5 years of age
-		name[6] = "Malaria";
+		name[7] = "Malaria";
 		//Number of children below 5 years of age admitted with Respiratory Infections
-		name[7] = "Respiratory Infections";
+		name[8] = "Respiratory Infections";
 
 		return name;
 	}

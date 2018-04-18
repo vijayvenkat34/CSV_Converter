@@ -4,12 +4,12 @@ import java.util.Map;
 
 public class Constants {
 	
-	public static final String YEAR = "2016";
+	public static final String YEAR = "2009";
 	public static int LENGTH_OF_FILE;
 	
 	
 	//domain selection
-	public static int CHOICE = 4;
+	public static int CHOICE = 6;
 	public static Map<String, Integer> DOMAIN_LIST = new HashMap<String, Integer>(){
 		{
 			put("Pregencies",1);

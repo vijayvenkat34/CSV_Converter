@@ -119,7 +119,9 @@ public class Tester3 {
 					int start = conn.returnStartAndEndLocation()[0];
 					int end = conn.returnStartAndEndLocation()[1];
 					
+					
 					for(String subDistrict : subDistricts){
+						
 						
 						int k = 0;
 				        for (int i=start;i<end;i++) {
@@ -158,96 +160,146 @@ public class Tester3 {
 				            	
 				            		//apr
 					            	case 1:
+					            		try{
 					            		total = row.get(subDistricts.indexOf(subDistrict)+4);
-					            
+					            		}catch(Exception e){
+					            			System.out.println("\nSubdis for that month is not present");
+					            			total = "0";
+					            		}
 					            		dataRecord.add(total);
 					            		break;
 					            	
 					            	//aug
 					            	case 2:
 					            		row = csvRecords.get(i+Constants.LENGTH_OF_FILE);
+					            		try{
 					            		total = row.get(subDistricts.indexOf(subDistrict)+4);
-					            		
+					            		}catch(Exception e){
+					            			System.out.println("\nSubdis for that month is not present");
+					            			total = "0";
+					            		}
 					            		dataRecord.add(total);
 					            		break;
 					            		
 						            	//dec
 					            	case 3:
 					            		row = csvRecords.get(i+Constants.LENGTH_OF_FILE*2);
+					            		try{
 					            		total = row.get(subDistricts.indexOf(subDistrict)+4);
-					            		
+					            		}catch(Exception e){
+					            			System.out.println("\nSubdis for that month is not present");
+					            			total = "0";
+					            		}
 					            		dataRecord.add(total);
 					            		break;
 					            	
 						            	//feb
 					            	case 4:
+					            		
 					            		row = csvRecords.get(i+Constants.LENGTH_OF_FILE*3);
+					            		try{
 					            		total = row.get(subDistricts.indexOf(subDistrict)+4);
-					            	
+					            		}catch(Exception e){
+					            			System.out.println("\nSubdis for that month is not present");
+					            			total = "0";
+					            		}
 					            		dataRecord.add(total);
 					            		break;
 					            	
 						            	//jan
 					            	case 5:
 					            		row = csvRecords.get(i+Constants.LENGTH_OF_FILE*4);
+					            		try{
 					            		total = row.get(subDistricts.indexOf(subDistrict)+4);
-					            		
+					            		}catch(Exception e){
+					            			System.out.println("\nSubdis for that month is not present");
+					            			total = "0";
+					            		}
 					            		dataRecord.add(total);
 					            		break;
 					            	
 						            	//jul
 					            	case 6:
 					            		row = csvRecords.get(i+Constants.LENGTH_OF_FILE*5);
+					            		try{
 					            		total = row.get(subDistricts.indexOf(subDistrict)+4);
 					            		
+					            		}catch(Exception e){
+					            			System.out.println("\nSubdis for that month is not present");
+					            			total = "0";
+					            		}
 					            		dataRecord.add(total);
 					            		break;
 					            	
 						            	//jun
 					            	case 7:
 					            		row = csvRecords.get(i+Constants.LENGTH_OF_FILE*6);
-					            		total = row.get(subDistricts.indexOf(subDistrict)+4);
-					            		
+					            		try{
+					            			total = row.get(subDistricts.indexOf(subDistrict)+4);
+					            		}catch(Exception e){
+					            			System.out.println("\nSubdis for that month is not present");
+					            			total = "0";
+					            		}
 					            		dataRecord.add(total);
 					            		break;
 					            		
 						            	//mar
 					            	case 8:
 					            		row = csvRecords.get(i+Constants.LENGTH_OF_FILE*7);
+					            		try{
 					            		total = row.get(subDistricts.indexOf(subDistrict)+4);
-					            		
+					            		}catch(Exception e){
+					            			System.out.println("\nSubdis for that month is not present");
+					            			total = "0";
+					            		}
 					            		dataRecord.add(total);
 					            		break;
 					            		
 						            	//may
 					            	case 9:
 					            		row = csvRecords.get(i+Constants.LENGTH_OF_FILE*8);
+					            		try{
 					            		total = row.get(subDistricts.indexOf(subDistrict)+4);
-					            		
+					            		}catch(Exception e){
+					            			System.out.println("\nSubdis for that month is not present");
+					            			total = "0";
+					            		}
 					            		dataRecord.add(total);
 					            		break;
 					            		
 						            	//nov
 					            	case 10:
 					            		row = csvRecords.get(i+Constants.LENGTH_OF_FILE*9);
+					            		try{
 					            		total = row.get(subDistricts.indexOf(subDistrict)+4);
-					            		
+					            		}catch(Exception e){
+					            			System.out.println("\nSubdis for that month is not present");
+					            			total = "0";
+					            		}
 					            		dataRecord.add(total);
 					            		break;
 					            		
 						            	//oct
 					            	case 11:
 					            		row = csvRecords.get(i+Constants.LENGTH_OF_FILE*10);
+					            		try{
 					            		total = row.get(subDistricts.indexOf(subDistrict)+4);
-					            		
+					            		}catch(Exception e){
+					            			System.out.println("\nSubdis for that month is not present");
+					            			total = "0";
+					            		}
 					            		dataRecord.add(total);
 					            		break;
 					            		
 						            	//sep
 					            	case 12:
 					            		row = csvRecords.get(i+Constants.LENGTH_OF_FILE*11);
+					            		try{
 					            		total = row.get(subDistricts.indexOf(subDistrict)+4);
-					            		
+					            		}catch(Exception e){
+					            			System.out.println("\nSubdis for that month is not present");
+					            			total = "0";
+					            		}
 					            		dataRecord.add(total);
 					            		break;
 				            	}

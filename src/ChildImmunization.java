@@ -106,7 +106,7 @@ public class ChildImmunization implements Domain {
 		//Number of children (9 months to 5 years old) were administered 5th dose of Vitamin A (Dose-5)
 		name[37] = "Children administered 5th dose of Vitamin A (9 months to 5 years old)";
 		//Number of children (9 months to 5 years old) administered 9th dose of Vitamin A (Dose-9)
-		name[38] = "Children administered 9th dose of Vitamin A (9 months to 5 years old) ";
+		name[38] = "Children administered 9th dose of Vitamin A (9 months to 5 years old)";
 
 		return name;
 	}

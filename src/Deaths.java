@@ -82,11 +82,11 @@ public class Deaths implements Domain {
 		//Number of Infant or Child deaths between 1 month to 5 years of age with the probable cause being Measles
 		name[24] = "Infant or Child deaths with the probable cause being Measles";
 		//Number of Infant or Child deaths between 1 month to 5 years of age with the probable cause being other than Pneumonia, Diarrhoea, Fever related and Measles
-		name[25] = "Infant or Child deaths with the probable cause being other than Pneumonia Diarrhoea, Fever related and Measles";
+		name[25] = "Infant or Child deaths with the probable cause being other than Pneumonia Diarrhoea Fever related and Measles";
 		//Number of Infant or Child deaths between 1 month to 5 years of age with the probable cause being other than Pneumonia, Diarrhoea, Fever related and Measles
-		name[26] = "Infant or Child deaths with the probable cause being other than Pneumonia Diarrhoea, Fever related and Measles";
+		name[26] = "Infant or Child deaths with the probable cause being other than Pneumonia Diarrhoea Fever related and Measles";
 		//Number of Infant or Child deaths between 1 month to 5 years of age with the probable cause being other than Pneumonia, Diarrhoea, Fever related and Measles
-		name[27] = "Infant or Child deaths with the probable cause being other than Pneumonia Diarrhoea, Fever related and Measles";
+		name[27] = "Infant or Child deaths with the probable cause being other than Pneumonia Diarrhoea Fever related and Measles";
 		//Number of Adolescent or Adult deaths (age 6 years & above) with the probable cause being Diarrhoeal diseases
 		name[28] = "Adolescent or Adult deaths with the probable cause being Diarrhoeal diseases";
 		//Number of Adolescent or Adult deaths (age 6 years & above) with the probable cause being Diarrhoeal diseases
